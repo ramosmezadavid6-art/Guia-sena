@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cars Motors: una página de exhibición inspirada en el mundo de los autos animados.">
+  <title>Cars Motors | Autos con personalidad</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Cars Motors, inicio">
+        <img src="img/logo.svg" alt="Logo Cars Motors" class="brand-logo">
+        <span class="brand-copy"><strong>CARS <span>MOTORS</span></strong><small>Autos con personalidad</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navigation">☰</button>
+      <nav class="navigation" id="navigation" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a><a href="#personajes">Personajes</a><a href="#servicios">Servicios</a><a href="#contacto" class="nav-cta">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">UNA PASIÓN SOBRE RUEDAS</p>
+        <h1>La aventura<br><span>va a toda marcha.</span></h1>
+        <p class="hero-description">Conoce autos con mucha personalidad, espíritu de equipo y ganas de llegar a la meta.</p>
+        <a class="button button-yellow" href="#personajes">Conocer personajes <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="road-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="section characters-section" id="personajes">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow red">CONOCE AL EQUIPO</p>
+          <h2>Personajes <span>inolvidables</span></h2>
+          <p>Cuatro personalidades diferentes, una misma pasión por la carretera.</p>
+        </div>
+        <div class="character-grid">
+          <article class="character-card">
+            <div class="character-art red-art"><img src="https://lumiere-a.akamaihd.net/v1/images/lightningmcqueen_characterbio_2bd07a1c_78f6b425.jpeg?region=0%2C0%2C600%2C600" alt="Rayo McQueen, personaje oficial de Cars" loading="lazy"><span class="number">01</span></div>
+            <div class="character-info"><p class="character-type">EL VELOZ</p><h3>Rayo McQueen</h3><p>Un corredor decidido que siempre busca dar lo mejor de sí.</p><a class="character-link vehicle-link" href="#contacto" data-model="Rayo McQueen">Me interesa <span>↗</span></a></div>
+          </article>
+          <article class="character-card">
+            <div class="character-art teal-art"><img src="https://lumiere-a.akamaihd.net/v1/images/mater_characterimage_b6ea14ea.jpeg?region=0%2C0%2C600%2C600" alt="Mate, personaje oficial de Cars" loading="lazy"><span class="number">02</span></div>
+            <div class="character-info"><p class="character-type">EL AMIGABLE</p><h3>Mate</h3><p>Una grúa leal, divertida y siempre lista para ayudar.</p><a class="character-link vehicle-link" href="#contacto" data-model="Mate">Me interesa <span>↗</span></a></div>
+          </article>
+          <article class="character-card">
+            <div class="character-art blue-art"><img src="https://lumiere-a.akamaihd.net/v1/images/sally_characterimage_a07777b2_500c151b.jpeg?region=0%2C0%2C600%2C600" alt="Sally, personaje oficial de Cars" loading="lazy"><span class="number">03</span></div>
+            <div class="character-info"><p class="character-type">LA ELEGANTE</p><h3>Sally</h3><p>Un auto moderno, inteligente y con un gran corazón.</p><a class="character-link vehicle-link" href="#contacto" data-model="Sally">Me interesa <span>↗</span></a></div>
+          </article>
+          <article class="character-card">
+            <div class="character-art navy-art"><img src="https://lumiere-a.akamaihd.net/v1/images/cars_dochudson_characterimage_829445c8.jpeg?region=0%2C0%2C600%2C600" alt="Doc Hudson, personaje oficial de Cars" loading="lazy"><span class="number">04</span></div>
+            <div class="character-info"><p class="character-type">EL EXPERIMENTADO</p><h3>Doc Hudson</h3><p>Un clásico con experiencia, carácter y grandes consejos.</p><a class="character-link vehicle-link" href="#contacto" data-model="Doc Hudson">Me interesa <span>↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="servicios">
+      <div class="container services-layout">
+        <div><p class="eyebrow yellow">MÁS QUE AUTOS</p><h2>Tu próxima aventura<br><span>empieza aquí.</span></h2><p class="services-intro">Explora el catálogo, conoce cada modelo y envíanos tus preguntas. Estamos listos para ayudarte.</p><a class="button button-outline" href="#contacto">Hablar con el equipo <span>→</span></a></div>
+        <div class="service-list">
+          <article><span class="service-icon">01</span><div><h3>Catálogo de personajes</h3><p>Encuentra tu favorito y conoce sus características.</p></div></article>
+          <article><span class="service-icon">02</span><div><h3>Atención personalizada</h3><p>Envíanos tus dudas desde el formulario de contacto.</p></div></article>
+          <article><span class="service-icon">03</span><div><h3>Pasión por los motores</h3><p>Un espacio para quienes disfrutan el mundo automotor.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-layout">
+        <div class="contact-copy"><p class="eyebrow red">HABLEMOS</p><h2>¿Cuál es tu<br><span>favorito?</span></h2><p>Completa el formulario y deja tu mensaje. Este sitio es una demostración educativa; el formulario muestra una confirmación en pantalla y no envía datos a un servidor.</p><div class="contact-note"><span>✦</span> ¡Nos vemos en la carretera!</div></div>
+        <form id="contactForm" class="contact-form">
+          <label for="nombre">Nombre completo</label><input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" required minlength="2">
+          <label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" placeholder="tunombre@correo.com" required>
+          <label for="vehiculo">Personaje de interés</label><select id="vehiculo" name="vehiculo" required><option value="" disabled selected>Selecciona un personaje</option><option>Rayo McQueen</option><option>Mate</option><option>Sally</option><option>Doc Hudson</option></select>
+          <label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu pregunta..." required></textarea>
+          <button type="submit" class="button button-red">Enviar mensaje <span>→</span></button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio"><img src="img/logo.svg" alt="" aria-hidden="true"><span>CARS MOTORS</span></a><p>Proyecto educativo inspirado en el mundo de los autos animados.</p><p>© <span id="currentYear"></span> Cars Motors. Sitio no oficial.</p></div></footer>
+</body>
+</html>
